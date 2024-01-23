@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+p {
+    font-family: 'Outfit';
+}
+
+.text-header {
+    font-weight: bold;
+    font-size: 25px;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    max-width: 80%;
+    max-height: fit-content;
+}
+
+.text-body {
+    font-weight: normal;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    max-width: 80%;
+}
