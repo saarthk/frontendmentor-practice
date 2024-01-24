@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap);
+
+:root {
+    --body-font: "Inter";
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: 14px;
+    background-color: var(--off-black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container {
+    background-color: var(--dark-grey);
+    width: 20%;
+    height: 75%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.img-block>img {
+    margin-top: 10px;
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+.name-and-loc {
+    padding-top: 10px;
+}
+
+.name-and-loc>h1 {
+    color: var(--white);
+    font-weight: 400;
+}
+
+.name-and-loc>p {
+    color: var(--green);
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+.bio {
+    font-weight: 400;
+    color: var(--white);
+    padding-top: 30px;
+}
+
+.socials-container {
+    /* border: 1px solid var(--white); */
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.socials-container>div {
+    background-color: var(--grey);
+    border-radius: 7px;
+    justify-content: center;
+    width: 90%;
+    height: 12%;
+    padding: 2px 0px;
+}
+
+.socials-container>div>p {
+    color: var(--white);
+    font-weight: 600;
+}
